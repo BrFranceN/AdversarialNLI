@@ -1,0 +1,12 @@
+
+
+
+
+tokens:
+    index
+    rawText
+
+annotations:
+    tokenIndex
+    verbatlas
+    englishPropbank
