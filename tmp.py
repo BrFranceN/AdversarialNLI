@@ -154,3 +154,120 @@ probankRoles 40
 
 
 roles_pb -> {'tokens': [{'index': 0, 'rawText': 'Roman'}, {'index': 1, 'rawText': 'Atwood'}, {'index': 2, 'rawText': '.'}, {'index': 3, 'rawText': 'He'}, {'index': 4, 'rawText': 'is'}, {'index': 5, 'rawText': 'best'}, {'index': 6, 'rawText': 'known'}, {'index': 7, 'rawText': 'for'}, {'index': 8, 'rawText': 'his'}, {'index': 9, 'rawText': 'vlogs'}, {'index': 10, 'rawText': ','}, {'index': 11, 'rawText': 'where'}, {'index': 12, 'rawText': 'he'}, {'index': 13, 'rawText': 'posts'}, {'index': 14, 'rawText': 'updates'}, {'index': 15, 'rawText': 'about'}, {'index': 16, 'rawText': 'his'}, {'index': 17, 'rawText': 'life'}, {'index': 18, 'rawText': 'on'}, {'index': 19, 'rawText': 'a'}, {'index': 20, 'rawText': 'daily'}, {'index': 21, 'rawText': 'basis'}, {'index': 22, 'rawText': '.'}, {'index': 23, 'rawText': 'His'}, {'index': 24, 'rawText': 'vlogging'}, {'index': 25, 'rawText': 'channel'}, {'index': 26, 'rawText': ','}, {'index': 27, 'rawText': '`'}, {'index': 28, 'rawText': '`'}, {'index': 29, 'rawText': 'RomanAtwoodVlogs'}, {'index': 30, 'rawText': "''"}, {'index': 31, 'rawText': ','}, {'index': 32, 'rawText': 'has'}, {'index': 33, 'rawText': 'a'}, {'index': 34, 'rawText': 'total'}, {'index': 35, 'rawText': 'of'}, {'index': 36, 'rawText': '3.3'}, {'index': 37, 'rawText': 'billion'}, {'index': 38, 'rawText': 'views'}, {'index': 39, 'rawText': 'and'}, {'index': 40, 'rawText': '11.9'}, {'index': 41, 'rawText': 'million'}, {'index': 42, 'rawText': 'subscribers'}, {'index': 43, 'rawText': '.'}, {'index': 44, 'rawText': 'He'}, {'index': 45, 'rawText': 'also'}, {'index': 46, 'rawText': 'has'}, {'index': 47, 'rawText': 'another'}, {'index': 48, 'rawText': 'YouTube'}, {'index': 49, 'rawText': 'channel'}, {'index': 50, 'rawText': 'called'}, {'index': 51, 'rawText': '`'}, {'index': 52, 'rawText': '`'}, {'index': 53, 'rawText': 'RomanAtwood'}, {'index': 54, 'rawText': "''"}, {'index': 55, 'rawText': ','}, {'index': 56, 'rawText': 'where'}, {'index': 57, 'rawText': 'he'}, {'index': 58, 'rawText': 'posts'}, {'index': 59, 'rawText': 'pranks'}, {'index': 60, 'rawText': '.'}], 'annotations': [{'tokenIndex': 4, 'verbatlas': {'frameName': 'COPULA', 'roles': [{'role': 'Theme', 'score': 1.0, 'span': [3, 4]}, {'role': 'Attribute', 'score': 1.0, 'span': [5, 22]}]}, 'englishPropbank': {'frameName': 'be.01', 'roles': [{'role': 'ARG1', 'score': 1.0, 'span': [3, 4]}, {'role': 'ARG2', 'score': 1.0, 'span': [5, 22]}]}}, {'tokenIndex': 6, 'verbatlas': {'frameName': 'KNOW', 'roles': [{'role': 'Theme', 'score': 1.0, 'span': [3, 4]}, {'role': 'Attribute', 'score': 1.0, 'span': [5, 6]}, {'role': 'Topic', 'score': 1.0, 'span': [7, 22]}]}, 'englishPropbank': {'frameName': 'know.01', 'roles': [{'role': 'ARG1', 'score': 1.0, 'span': [3, 4]}, {'role': 'ARGM-MNR', 'score': 1.0, 'span': [5, 6]}, {'role': 'ARG2', 'score': 1.0, 'span': [7, 22]}]}}, {'tokenIndex': 13, 'verbatlas': {'frameName': 'RECORD', 'roles': [{'role': 'Location', 'score': 1.0, 'span': [8, 10]}, {'role': 'Agent', 'score': 1.0, 'span': [12, 13]}, {'role': 'Theme', 'score': 1.0, 'span': [14, 18]}, {'role': 'Time', 'score': 1.0, 'span': [18, 22]}]}, 'englishPropbank': {'frameName': 'post.01', 'roles': [{'role': 'ARGM-LOC', 'score': 1.0, 'span': [8, 10]}, {'role': 'R-ARGM-LOC', 'score': 1.0, 'span': [11, 12]}, {'role': 'ARG0', 'score': 1.0, 'span': [12, 13]}, {'role': 'ARG1', 'score': 1.0, 'span': [14, 18]}, {'role': 'ARGM-TMP', 'score': 1.0, 'span': [18, 22]}]}}, {'tokenIndex': 32, 'verbatlas': {'frameName': 'EXIST-WITH-FEATURE', 'roles': [{'role': 'Theme', 'score': 1.0, 'span': [23, 32]}, {'role': 'Attribute', 'score': 1.0, 'span': [33, 43]}]}, 'englishPropbank': {'frameName': 'have.03', 'roles': [{'role': 'ARG0', 'score': 1.0, 'span': [23, 32]}, {'role': 'ARG1', 'score': 1.0, 'span': [33, 43]}]}}, {'tokenIndex': 46, 'verbatlas': {'frameName': 'EXIST-WITH-FEATURE', 'roles': [{'role': 'Theme', 'score': 1.0, 'span': [44, 45]}, {'role': 'Attribute', 'score': 1.0, 'span': [47, 60]}]}, 'englishPropbank': {'frameName': 'have.03', 'roles': [{'role': 'ARG0', 'score': 1.0, 'span': [44, 45]}, {'role': 'ARGM-DIS', 'score': 1.0, 'span': [45, 46]}, {'role': 'ARG1', 'score': 1.0, 'span': [47, 60]}]}}, {'tokenIndex': 50, 'verbatlas': {'frameName': 'NAME', 'roles': [{'role': 'Theme', 'score': 1.0, 'span': [47, 50]}, {'role': 'Attribute', 'score': 1.0, 'span': [51, 55]}]}, 'englishPropbank': {'frameName': 'call.01', 'roles': [{'role': 'ARG1', 'score': 1.0, 'span': [47, 50]}, {'role': 'ARG2', 'score': 1.0, 'span': [51, 55]}]}}, {'tokenIndex': 58, 'verbatlas': {'frameName': 'RECORD', 'roles': [{'role': 'Location', 'score': 1.0, 'span': [47, 55]}, {'role': 'Agent', 'score': 1.0, 'span': [57, 58]}, {'role': 'Theme', 'score': 1.0, 'span': [59, 60]}]}, 'englishPropbank': {'frameName': 'post.01', 'roles': [{'role': 'ARGM-LOC', 'score': 1.0, 'span': [47, 55]}, {'role': 'R-ARGM-LOC', 'score': 1.0, 'span': [56, 57]}, {'role': 'ARG0', 'score': 1.0, 'span': [57, 58]}, {'role': 'ARG1', 'score': 1.0, 'span': [59, 60]}]}}]}
+
+
+
+
+
+
+
+
+
+
+
+
+# code to concatenate dataset
+# TO CONCATENATE NEW SAMPLES
+new_samples = {
+    'premise': ["New premise 1", "New premise 2"],
+    'hypothesis': ["New hypothesis 1", "New hypothesis 2"],
+    'label': [0, 1],  # Example labels: 0 for ENTAILMENT, 1 for CONTRADICTION, etc.
+    # Add other fields if needed, e.g., 'srl' and 'wsd'
+}
+
+# Convert new samples to a Dataset
+new_dataset = Dataset.from_dict(new_samples)
+
+
+# Add new samples to the existing training dataset
+prova = concatenate_datasets([filtered_dataset_isnot, new_dataset])
+print(prova[-1])
+print(len(new_samples))
+
+
+
+##PROMPT
+
+print(new_samples_with_bert[0].keys())
+print(new_samples_synonyms[0].keys())
+print(new_samples_isnot[0].keys())
+print(new_samples_isnot_change[0].keys())
+print(new_samples_generated[0].keys())
+
+list_subsets = [new_samples_with_bert,
+                new_samples_synonyms,
+                new_samples_isnot,
+                new_samples_isnot_change,
+                new_samples_generated
+               ]
+
+the output is:
+dict_keys(['premise', 'hypothesis', 'original', 'label'])
+dict_keys(['premise', 'hypothesis', 'original', 'label'])
+dict_keys(['premise', 'hypothesis', 'label', 'wsd'])
+dict_keys(['premise', 'hypothesis', 'original', 'label'])
+dict_keys(['premise', 'hypothesis', 'label'])
+
+okay now I want to create a function that concatenate all these subsets
+in particular I need also id key and 
+
+
+
+
+
+
+
+
+
+print(type(nli_dataset['train'][-1]['id']))
+new_samples = {
+    'id': [str(-1),str(-2)],
+    'premise': ["New premise 1", "New premise 2"],
+    'hypothesis': ["New hypothesis 1", "New hypothesis 2"],
+    'label': [0, 1],  # Example labels: 0 for ENTAILMENT, 1 for CONTRADICTION, etc.
+    'wsd':[None,None],
+    'srl':[None,None]
+    # Add other fields if needed, e.g., 'srl' and 'wsd'
+}
+
+
+dummy_dataset = Dataset.from_dict(new_samples)
+
+copy_dataset = nli_dataset['train']
+
+test_concaten = concatenate_datasets([copy_dataset, dummy_dataset])
+
+print(test_concaten[-1])
+print(test_concaten[-2])
+ValueError                                Traceback (most recent call last)
+Cell In[8], line 17
+     13 dummy_dataset = Dataset.from_dict(new_samples)
+     15 copy_dataset = nli_dataset['train']
+---> 17 test_concaten = concatenate_datasets([copy_dataset, dummy_dataset])
+     19 print(test_concaten[-1])
+     20 print(test_concaten[-2])
+
+File ~/miniconda3/envs/nlp_env/lib/python3.11/site-packages/datasets/combine.py:213, in concatenate_datasets(dsets, info, split, axis)
+    209         raise ValueError(
+    210             f"Unable to interleave a {dataset_type.__name__} (at position 0) with a {other_type.__name__} (at position {i}). Expected a list of Dataset objects or a list of IterableDataset objects."
+    211         )
+    212 if dataset_type is Dataset:
+--> 213     return _concatenate_map_style_datasets(dsets, info=info, split=split, axis=axis)
+    214 else:
+    215     return _concatenate_iterable_datasets(dsets, info=info, split=split, axis=axis)
+
+File ~/miniconda3/envs/nlp_env/lib/python3.11/site-packages/datasets/arrow_dataset.py:6243, in _concatenate_map_style_datasets(dsets, info, split, axis)
+   6241 # Perform checks (and a potentional cast if axis=0)
+   6242 if axis == 0:
+-> 6243     _check_if_features_can_be_aligned([dset.features for dset in dsets])
+   6244 else:
+   6245     if not all(dset.num_rows == dsets[0].num_rows for dset in dsets):
+
+File ~/miniconda3/envs/nlp_env/lib/python3.11/site-packages/datasets/features/features.py:2211, in _check_if_features_can_be_aligned(features_list)
+   2209     _check_if_features_can_be_aligned([name2feature[k], v])
+   2210 elif not (isinstance(v, Value) and v.dtype == "null") and name2feature[k] != v:
+-> 2211     raise ValueError(
+   2212         f'The features can\'t be aligned because the key {k} of features {features} has unexpected type - {v} (expected either {name2feature[k]} or Value("null").'
+   2213     )
+
+ValueError: The features can't be aligned because the key label of features {'id': Value(dtype='string', id=None), 'premise': Value(dtype='string', id=None), 'hypothesis': Value(dtype='string', id=None), 'label': Value(dtype='int64', id=None), 'wsd': Value(dtype='null', id=None), 'srl': Value(dtype='null', id=None)} has unexpected type - Value(dtype='int64', id=None) (expected either Value(dtype='string', id=None) or Value("null").

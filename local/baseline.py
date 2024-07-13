@@ -39,6 +39,7 @@ set_seed(42)
 sst2_dataset = load_dataset("tommasobonomo/sem_augmented_fever_nli",trust_remote_code=True)
 
 
+
 ### METRIC DEFINITION
 
 # Metrics
@@ -49,7 +50,7 @@ def compute_metrics(eval_pred):
    logits, labels = eval_pred
    predictions = np.argmax(logits, axis=-1)
    accuracy = load_accuracy.compute(predictions=predictions, references=labels)["accuracy"]
-   f1 = load_f1.compute(predictions=predictions, references=labels,accuracy="weighted")["f1"]
+   f1 = load_f1.compute(predictions=predictions, references=labels,average="weighted")["f1"]
    return {"accuracy": accuracy, "f1": f1}
 
 
