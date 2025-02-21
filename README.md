@@ -10,4 +10,4 @@ This repository hosts materials for the Homework 2 of the NLP 2024 course, focus
 - **Generated Samples:** This method utilizes temporal consistencies to construct new samples without employing any large language models (LLMs).
 
 
-
+  ![Generated Samples Scheme](images/scheme_generated_samples.png)
